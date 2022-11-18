@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .foodImg{
+   
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .foodImg>img{
+    width: 400px;
+    height: 500px;
+    margin: 40px 10px 40px 10px;
+  }
+  

@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.Body {
+  position: relative;
+}
+.meBackImg1,
+.meBackImg3 {
+  height: 40vh;
+  width: 33%;
+  opacity: 0.3;
+  /* width: auto; */
+}
+.meBackImg2 {
+  height: 40vh;
+  width: 34%;
+  opacity: 0.6;
+  /* width: auto; */
+}
+
+.imgMe {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.searchBar {
+  position: absolute;
+  margin: -100px 0 0 800px;
+  width: 500px;
+}
+.searchBar > input {
+  width: 300px;
+  height: 30px;
+}11
+
+.searchBar > span {
+  color: white;
+  font-weight: 800;
+  border: solid white 2px;
+}
+
+.life{
+position: absolute;
+color:white;
+margin: -250px 0 0 520px;
+font-weight: 800;
+font-size: 50px;
+letter-spacing: 2px;
+
+}
